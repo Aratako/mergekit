@@ -8,6 +8,8 @@ mergekit-moe-qwen2 path/to/your/config.yml ./output-model-directory [other optio
 
 The command options are the same as the original mergekit-moe.
 
+Note that using the output model requires customization of the inference part as well. Please refer to the [example](https://huggingface.co/Aratako/Liberated-Qwen1.5-2x7B).
+
 Below is the original README.md.
 ---
 
