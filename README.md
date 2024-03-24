@@ -1,3 +1,16 @@
+# mergekit-qwen2
+
+This is a customized version of `mergekit` designed to enable MoE (Mixture of Experts) for the qwen2 model. You can perform MoE for qwen2 using the following command:
+
+```sh
+mergekit-moe-qwen2 path/to/your/config.yml ./output-model-directory [other options]
+```
+
+The command options are the same as the original mergekit-moe.
+
+Below is the original README.md.
+---
+
 > [!NOTE]
 > [Charles Goddard](https://github.com/cg123), author of `mergekit` (and person writing this note), has joined [arcee.ai](https://www.arcee.ai/). I will be continuing to develop `mergekit` with their backing and it will continue to be open source under the same license. For more words about this, see the blog post [here](https://blog.arcee.ai/arcee-and-mergekit-unite/).
 
