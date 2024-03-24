@@ -271,7 +271,6 @@ def build(
     arch_info = mergekit.architecture.get_architecture_info(base_cfg)
 
     out_cfg = base_cfg
-    # out_cfg.architectures = ["Qwen2ForCausalLM"]
     out_cfg.num_local_experts = len(config.experts)
     out_cfg.num_experts_per_tok = config.experts_per_token
     out_cfg.sliding_window = None
